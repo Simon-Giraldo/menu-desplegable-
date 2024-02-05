@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+.barra{
+    width: 10%;
+    height: 9%;
+    position: fixed;
+    transition: .4s all;
+    z-index: 100;
+}
+.barra ul{
+    padding: 0px;
+    text-align: center;
+}
+
+.barra li{
+    transition: .3s all;
+}
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding: 0px;
+
+}
+.barra h2{
+    text-align: center;
+    color: white;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 0px;
+
+}
+
+.barra img{
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 30px;
+
+}
+.barra:hover{
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(to bottom right,blue, rgb(144, 48, 189),black)
+}
+.barra:hover h2{
+    padding: 15px;
+    font-size: 35px;
+}
+.barra:hover a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+.barra:hover img{
+    height: 0px;
+}
+.barra:hover li{
+    border-top: 1px solid black;
+    width: 100%;
+}
