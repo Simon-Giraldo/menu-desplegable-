@@ -1,82 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
-/* * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  } */
-
-body{
-    margin: 0;
-    margin-top: 0;
-}
-
-.barra{
+.barra{ 
+    font-family: arial;
     width: 10%;
     height: 9%;
     position: fixed;
     transition: .4s all;
     z-index: 100;
-    /* position: relative; */
-    /* bottom: 80px; */
 }
+
 .barra ul{
     padding: 0px;
     text-align: center;
 }
 
 .barra li{
-    transition: .3s all;
+  transition: .3s all;
 }
+
 .barra a{
     text-decoration: none;
     list-style: none;
-    transition: .3s all;
-    font-size: 0px;
-    padding: 0px;
-
+    transition: .3s all ;
+    font-size: 0;
+    padding: 0;
 }
-.barra h2{
+ .barra h2{
     text-align: center;
     color: white;
     padding: 7px;
     padding-bottom: 7px;
-    font-size: 0px;
-
-}
-
-.barra img{
-    padding-top: 30px;
-    padding-left: 10px;
+    font-size: 0;
+ }
+ .barra img{
     width: 30px;
+    padding-top: 30px;
+    padding-top: 10px;
+ }
 
-}
-.barra:hover{
+ .barra:hover{
     width: 20%;
     height: 100%;
-    background: linear-gradient(to bottom right,blue, rgb(144, 48, 189),black)
-}
-.barra:hover h2{
+    background: linear-gradient(to bottom right, blue, rgb(144, 48, 189),black);
+ }
+ .barra:hover h2{
     padding: 15px;
     font-size: 35px;
-}
-.barra:hover a{
+ }
+
+ .barra:hover a{
     font-size: 20px;
     color: white;
     display: block;
     padding: 20px;
-}
-.barra:hover img{
-    height: 0px;
-}
-.barra:hover li{
+ }
+
+ .barra:hover img{
+    height: 0;;
+ }
+
+ .barra:hover li{
     border-top: 1px solid black;
     width: 100%;
+ }
+
+.barra:hover ul:last-of-type{
+    border-bottom: 1px solid black ;
 }
 
-.cabeza_de_pagina {
-    background-color: aqua;
-    width: 100%;
-    height: 100px;
-    z-index: 50;
+.barra:hover a:hover{
+    font-size: 25px;
+    padding: 30px,0px;
+    background: linear-gradient(to bottom right, rgb(84, 84, 206), rgb(179, 67, 231),rgb(209, 74, 74));
 }
